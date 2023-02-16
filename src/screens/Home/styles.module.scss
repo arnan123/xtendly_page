@@ -134,9 +134,17 @@
         flex-direction: row;
         gap: 0.5rem;
         color: gray;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+
+        .form-content2-title-text {
+          font-size: large;
+        }
 
         @media only screen and (max-width: 730px) {
           flex-direction: column;
+          gap: 0;
         }
       }
 

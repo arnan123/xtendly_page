@@ -39,18 +39,18 @@ function Homescreen() {
         </Space>
         <Space className={styles['form-content2']}>
           <div style={{ display: 'flex', flexDirection: 'column' }}>
-            <Typography.Title
-              level={4}
-              className={styles['form-content2-title']}
-            >
-              Learn How FloQast Can
-              <Typography.Title
-                level={4}
+            <div className={styles['form-content2-title']}>
+              <Typography className={styles['form-content2-title-text']}>
+                Learn How FloQast Can
+              </Typography>
+              <Typography
+              className={styles['form-content2-title-text']}
                 style={{ color: '#8BC540' }}
               >
                 Improve Your Month-End
-              </Typography.Title>
-            </Typography.Title>
+              </Typography>
+            </div>
+
             <Form>
               <Space className={styles['form-content2-input']}>
                 <Form.Item>
